@@ -1,0 +1,13 @@
+ign: iotacube
+client: lunar
+path: 
+gamemode: bedwars
+selfstats: false
+stats: all
+interval: lifetime
+sort by: fkdr
+fixedstats: false
+opacity: 85
+topmost: true
+topbar: true
+autoclose: false

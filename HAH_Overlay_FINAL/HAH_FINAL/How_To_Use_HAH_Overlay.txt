@@ -1,0 +1,94 @@
+════════════════════════════════════════════════════════════
+  HAH Overlay  —  How To Use
+  Pika Network BedWars Stats Overlay
+════════════════════════════════════════════════════════════
+
+SETUP (one time only)
+──────────────────────
+1. Extract this folder somewhere on your PC
+
+2. Open the config folder
+
+3. Edit option.txt:
+     ign: YourIGN         ← change to YOUR Minecraft username
+     client: lunar        ← change to YOUR client (see options below)
+
+   Available clients:
+     lunar       → Lunar Client
+     badlion     → Badlion Client
+     cmclient    → CM Client
+     salwyrr     → Salwyrr Client
+     tlauncher   → TLauncher
+     custom      → any other (set path: manually)
+
+4. Save option.txt
+
+HOW TO USE  (every game)
+──────────────────────────
+1. Open HAH_Overlay.exe
+
+2. Open Minecraft and join a Pika Network BedWars lobby
+
+3. Press  T  or  /  to open chat
+
+4. Type a SPACE (press spacebar once)
+
+5. Press TAB key
+
+6. Player names will appear in chat
+
+7. The overlay will automatically scan and show stats for all players
+
+   Stats load one by one  (~1-2 seconds per player)
+   Wait a few seconds for all stats to appear
+
+CONTROLS
+─────────
+   ALT + G   →  Minimize / show the overlay
+   Close (X)  →  Exit the overlay
+
+COLUMNS SHOWN
+──────────────
+   Level   →  Player's BedWars level on Pika
+   FKDR    →  Final Kill Death Ratio
+   Wins    →  Total BedWars wins
+   WLR     →  Win/Loss Ratio
+   WS      →  Best winstreak
+   Guild   →  Clan/Guild tag
+
+SORT OPTIONS  (in config/option.txt)
+──────────────
+   sort by: level   → highest level first
+   sort by: fkdr    → highest FKDR first  (recommended)
+   sort by: win     → most wins first
+   sort by: wlr     → best WLR first
+   sort by: ws      → highest winstreak first
+
+PROMINENT PLAYERS
+──────────────────
+   Add IGNs to config/prominent_player.txt
+   These players get highlighted in the overlay
+   Format: add names space-separated on one line
+   Example: iotacube SweaterGod RushKing
+
+TROUBLESHOOTING
+────────────────
+   Nothing shows up:
+   → Make sure client: in option.txt matches your actual client
+   → Do the SPACE + TAB trick in a Pika BedWars lobby (not hub)
+   → Check that you're on Pika Network specifically
+
+   Stats show as 0 or blank:
+   → Player might have hidden stats or be new
+   → Try interval: weekly for more players to show stats
+
+   "All" stats look wrong:
+   → Change fixedstats: true  for better ratio calculations
+     or keep fixedstats: false to match Pika website numbers
+
+   Overlay behind game:
+   → Set topmost: true in option.txt
+
+════════════════════════════════════════════════════════════
+  HAH Overlay  |  Pika Network BedWars Only
+════════════════════════════════════════════════════════════

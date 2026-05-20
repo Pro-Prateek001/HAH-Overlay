@@ -1,0 +1,73 @@
+HAH Overlay  —  Config Options  (config/option.txt)
+════════════════════════════════════════════════════
+
+  ign:
+  Your Minecraft IGN (hides you from the overlay list)
+  Example: ign: iotacube
+
+  client:
+  Your Minecraft launcher/client
+  Options: lunar  |  badlion  |  cmclient  |  cm  |  salwyrr  |  tlauncher  |  custom
+  Example: client: lunar
+
+  path:
+  Only needed when client: custom  — full path to your latest.log
+  Example: path: C:\Users\YourName\.lunarclient\offline\multiver\logs\latest.log
+  IMPORTANT: set client: custom first, then set path:
+
+  gamemode:
+  Which gamemode stats to show
+  Options: bedwars  |  skywars
+  Example: gamemode: bedwars
+
+  selfstats:
+  Show your own stats in the overlay
+  Options: true  |  false
+  Example: selfstats: false
+
+  stats:
+  Which BedWars mode stats to fetch
+  Options: 1/solo/solos  |  2/duo/doubles  |  3/trio/triples  |  4/quad/quads  |  0/all
+  Example: stats: all
+
+  interval:
+  Time period for stats
+  Options: week/weekly  |  month/monthly  |  year/yearly  |  all/lifetime
+  Example: interval: lifetime
+
+  sort by:
+  How to sort players in the overlay
+  Options: level  |  win  |  wlr  |  fkdr  |  ws
+  Example: sort by: fkdr
+
+  fixedstats:
+  Uses (games played - wins) as losses for better FKDR on Pika
+  Options: true  |  false
+  Recommendation: false (matches what Pika shows on website)
+  Example: fixedstats: false
+
+  opacity:
+  Window transparency (0 = invisible, 100 = fully solid)
+  Options: 0 to 100
+  Example: opacity: 85
+
+  topmost:
+  Keep overlay always on top of all windows
+  Options: true  |  false
+  Example: topmost: true
+
+  topbar:
+  Show the Windows title bar on the overlay
+  Options: true  |  false
+  Example: topbar: true
+
+  autoclose:
+  Automatically minimize when game is about to start
+  Options: true  |  false
+  Example: autoclose: false
+
+════════════════════════════════════════════════════
+  prominent_player.txt
+  Add player IGNs (space-separated or one per line)
+  These players will be highlighted in the overlay
+  Example: iotacube SweaterGod IcyKiller
